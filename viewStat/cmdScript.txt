@@ -1,0 +1,2 @@
+scrapy crawl viewStatTudou -o tudou.jason -t json
+scrapy crawl viewStatYouku -o youku.jason -t json

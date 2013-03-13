@@ -1,0 +1,2 @@
+scrapy crawl indeedJob -o jobScrap.jason -t json
+scrapy crawl indeedJob -o resumeScrap.jason -t json
