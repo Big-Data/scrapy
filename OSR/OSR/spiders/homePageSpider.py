@@ -19,7 +19,9 @@ class youkuHomePageSpider(BaseSpider):
 		"http://i.youku.com/u/UNDg2MzI4Nzgw/videos/order_1_view_1_page_4",
 		"http://i.youku.com/u/UNDg2MzI4Nzgw/videos/order_1_view_1_page_5",
 		"http://i.youku.com/u/UNDg2MzI4Nzgw/videos/order_1_view_1_page_6",
-		"http://i.youku.com/u/UNDg2MzI4Nzgw/videos/order_1_view_1_page_7"	
+		"http://i.youku.com/u/UNDg2MzI4Nzgw/videos/order_1_view_1_page_7",
+		"http://i.youku.com/u/UNDg2MzI4Nzgw/videos/order_1_view_1_page_8",
+		"http://i.youku.com/u/UNDg2MzI4Nzgw/videos/order_1_view_1_page_9"
 	]
 	'''
 	start_urls = [
@@ -66,7 +68,8 @@ class tudouHomePageSpider(BaseSpider):
     start_urls = [
 		"http://www.tudou.com/home/item_u118852054s0p1.html",
 		"http://www.tudou.com/home/item_u118852054s0p2.html",
-		"http://www.tudou.com/home/item_u118852054s0p3.html"
+		"http://www.tudou.com/home/item_u118852054s0p3.html",
+		"http://www.tudou.com/home/item_u118852054s0p4.html"
     ]
 	
     def parse(self, response):
